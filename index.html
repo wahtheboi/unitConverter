@@ -1,0 +1,33 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<div id="header">
+		<h2 class="goBold">Metric/Imperial Unit Converter</h2>
+		<input type="number" oninput="convert()" id="input-data">
+	</div>
+
+	<div id="conversion-section">
+		<div class="boxes">
+			<h4>Length (Meter/Feet)</h4>
+			<h5 id="length-conv"> meters = feets  |  feets = meters</h5>
+		</div>
+		<div class="boxes">
+			<h4>Volumn (Litres/Gallons)</h4>
+			<h5 id="volumn-conv"> liters = gallons  |  gallons = litres</h5>
+		</div>
+		<div class="boxes">
+			<h4>Mass (Kilogram/Pounds)</h4>
+			<h5 id="mass-conv"> kilogram = pounds  |  pounds = kilogram</h5>
+		</div>
+	</div>
+    <script src="index.js"></script>
+</body>
+
+</html>
